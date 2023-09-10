@@ -1,0 +1,98 @@
+
+.background {
+    background-color: antiquewhite;
+}
+.color {
+    color: blueviolet;
+}
+/*
+یه کلس انتخواب میکنیم و در اون تغییراتی انجام میدیم
+*/
+
+a[href*="spotify"]{
+    color: green;
+}
+a[href*="soundcloud"] {
+    color: orange;
+}
+
+a[href*="youtu"] {
+    color: red;
+}
+/*
+جچندتا لینک داریم از بین اون ها حرف یا کلمه که در لینک وجود داره رو انتخواب میکنیم و تغییراتی به کل اون نوشته میدیم
+*/
+li:hover {
+    background-color: darkblue;
+}
+li:hover a {
+     color: blanchedalmond ;
+}
+/*
+وقتی موس رو ببریم روی لینک  میتونیم شاهد تغییراتی که اعمال کردیم بشیم 
+*/
+/*
+li::before {
+    content: "before";
+}
+li::after {
+    content: "after";
+}
+
+اگر بخوایم قبل و بعد لینکهای مورد نظر عبارتی بزاریم از این استفاده میکنیم 
+بابد در اوردر لیست باشند*/
+/* p {
+    background-color: purple;
+    padding: 80px 635px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    border: 10px solid blueviolet;
+    background-image: url(./sz.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+} */
+p {
+    text-align: center ;
+    padding: 10% 10% 10% 50%;
+    font: 30px bold italic; 
+    background: linear-gradient(to right, rgba(66,39,90,2), rgba(115,75,109,.5)) , url(./sz.jpg) 10% 35%  no-repeat ;
+    background-size: 50% 80%;
+    box-sizing: border-box;
+}
+/*
+
+برای هر پاراگراف یا هر چیزی در صفحه اگر بخوایم اون رو تغییر بدیم از کد های بالا استفاده میکنیم 
+ترتیب مارجین و پدینگ بالا راست پایین چپ هست*/
+h1 {
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: darkblue;
+    background-color: blueviolet;
+    padding: 10px;
+     width: auto; 
+}
+/*
+میتونیم از % استفاده کنیم بذای مقدار تصویر در بک گراند*/
+
+/* background-origin: border-box;
+background-clip: border-box;
+background-attachment: fixed;
+border : 10px dashed green;
+height: 400px;
+box-sizing: border-box;
+ padding : 20px;   */
+
+کلیپ برای برش هست 
+اتچمنت برای  فیکس کردن تصویر اگر در بک گراند استفاده بشه دیگه تکون نمیخوره
+
+
+
+
+
+
+
+
+
